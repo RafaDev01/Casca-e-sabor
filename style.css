@@ -72,25 +72,22 @@ nav a img {
 }
 
 div.container {
-  margin-left: 200px;
   max-width: 1200px;
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
   margin-top: 50px;
   align-items: center;
+  margin: auto;
 }
 
 div.container img {
   width: 13.75rem;
   height: 9.375rem;
-  margin: 10px;
   border-radius: 10px;
 }
 
 .boximg {
-
- margin-right: -50px;
   padding: 5px;
   box-shadow: rgba(0, 0, 0, .6) 2px 2px;
   background-color: #311717e3;
@@ -98,6 +95,7 @@ div.container img {
 }
 
 div.container div {
+  margin-top: 45px;
   width: 31.25rem;
 }
 
@@ -107,7 +105,6 @@ div.container div {
   border-radius: 10px;
   box-shadow: coral 3px 3px;
   background-color: #f4f4f4;
-  margin-left: 170px;
 }
 
 .caixamsg h2 {
@@ -146,6 +143,8 @@ div.container div {
     270deg
     , rgb(238, 132, 11), hsla(29, 67%, 47%, 0.589) );;
 }
+
+
 #section3 .caixamsg a button#contato {
   font-size: 20px;
   padding: 15px;
@@ -154,10 +153,13 @@ div.container div {
   background:  #34af23;
   cursor: pointer;
   border: none;
+  width: 250px;
 }
 
-#section3 .caixamsg a button#contato .icon-social {
+
+#section3 .caixamsg a button#contato i{
   font-size: 25px;
+  margin-right: 10px;
 }
 
 #section3 .caixamsg a button#contato:hover {
@@ -180,4 +182,39 @@ div.container div {
   margin-right: 15px;
   margin-top: 2px;
   color:  #34af23;
+}
+
+footer {
+  height: 220px;
+  background-color: #311718ee;
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: 100px;
+}
+
+footer .container > div {
+  margin-top: 50px;
+}
+
+footer .container > div p {
+  margin-top: 30px;
+}
+
+footer .container > div a {
+  font-size: 30px;
+}
+
+footer .container >div i {
+  color: rgb(255, 0, 179);
+  margin-left: 10px;
+}
+
+footer .container >div a {
+  text-decoration: none;
+  color: rgb(65, 125, 216);
+}
+
+footer .container >div a span {
+  color: rgb(255, 0, 179);
 }
