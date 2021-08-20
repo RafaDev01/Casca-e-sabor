@@ -100,16 +100,18 @@ div.container div {
 }
 
 .caixamsg {
-  border: 2px  solid coral;
+  border-radius: 2px;
+  border: 1px  solid coral;
   padding: 10px;
-  box-shadow: rgba(255, 127, 80, 0.699) 2px 2px;
+  box-shadow: rgba(255, 127, 80, 0.699) 2px 2px 3px;
   background-color: #f4f4f4;
 }
 
 .caixamsg h2 {
   font-size: 30px;
   margin-bottom: 30px;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .caixamsg p {
@@ -137,9 +139,8 @@ div.container div {
   margin-top: 170px;
   width: 100%;
   height: 2px;
-  background: linear-gradient( 
-    270deg
-    , rgb(238, 132, 11), hsla(29, 67%, 47%, 0.589) );;
+  background: linear-gradient(to right, #F6A588 , #ffa218,  #cf4e52 , #311718af);
+    
 }
 
 #section2 .container02 {
@@ -164,8 +165,12 @@ div.container div {
 }
 
 #section2 .cont{
-  display: flex;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
 }
 
 #section2 .cont .card {
@@ -174,13 +179,16 @@ div.container div {
   height: 250px;
   margin: 10px;
   padding: 5px;
-  padding: 85px;
-  display: flex;
-  flex-direction: column;
+  border-bottom: #F6A588 3px solid;
+  white-space: normal;
+  word-break: break-all;
 }
 
 #section2 .cont .card i {
+  margin-top: 50px;
+  padding: 80px;
   font-size: 5rem;
+  color: #8cc24ea9;
 }
 
 
