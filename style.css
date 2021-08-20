@@ -58,7 +58,7 @@ img {
 }
 
 .menu ul li a:hover {
-  color: coral
+  color: #F6A588;
 }
 
 .menu ul li a {
@@ -102,8 +102,7 @@ div.container div {
 .caixamsg {
   border: 2px  solid coral;
   padding: 10px;
-  border-radius: 10px;
-  box-shadow: coral 3px 3px;
+  box-shadow: rgba(255, 127, 80, 0.699) 2px 2px;
   background-color: #f4f4f4;
 }
 
@@ -123,7 +122,6 @@ div.container div {
 .caixamsg a button {
   font-size: 20px;
   padding: 15px;
-  border-radius: 8px;
   color: white;
   background: #311718f1;
   cursor: pointer;
@@ -143,6 +141,49 @@ div.container div {
     270deg
     , rgb(238, 132, 11), hsla(29, 67%, 47%, 0.589) );;
 }
+
+#section2 .container02 {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+#section2  h2 {
+  margin-top: 25px;
+  color: black;
+  font-size: 35pt;
+  font-family: sans-serif;
+}
+
+#section2 .cont p {
+  font-size: 12pt;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#section2 .cont{
+  display: flex;
+  margin: 0 auto;
+}
+
+#section2 .cont .card {
+  background-color: blue;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  padding: 5px;
+  padding: 85px;
+  display: flex;
+  flex-direction: column;
+}
+
+#section2 .cont .card i {
+  font-size: 5rem;
+}
+
+
 
 
 #section3 .caixamsg a button#contato {
@@ -206,15 +247,37 @@ footer .container > div a {
 }
 
 footer .container >div i {
-  color: rgb(255, 0, 179);
+  color: salmon;
   margin-left: 10px;
 }
 
+footer .container >div i:hover {
+  color: rgb(255, 73, 52);
+}
 footer .container >div a {
   text-decoration: none;
-  color: rgb(65, 125, 216);
+  color: #F6A588;
 }
 
 footer .container >div a span {
   color: rgb(255, 0, 179);
+}
+
+.container-foto {
+  width: 85rem;
+  margin: 0 auto;
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container-foto img {
+  width: 250px;
+  height: 250px;
+  background-color: rgba(255, 0, 179, 0.103);
+  display: flex;
+  margin: 4px;
+  padding: 2px;
+
 }
