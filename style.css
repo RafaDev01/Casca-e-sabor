@@ -6,6 +6,7 @@
 }
 
 body {
+  background-image: url(snow.jpg);
   width: 100%;
   margin: auto;
   background: #e0e0e0;
@@ -54,7 +55,7 @@ img {
 }
 
 .menu ul li {
-  margin-right: 30px;
+  margin-right: 5px;
 }
 
 .menu ul li a:hover {
@@ -63,6 +64,10 @@ img {
 
 .menu ul li a {
   color: #ffffff;
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 nav a img {
@@ -186,11 +191,16 @@ div.container div {
 
 #section2 .cont .card i {
   margin-top: 50px;
-  padding: 80px;
+  padding-top: 80px;
   font-size: 5rem;
   color: #8cc24ea9;
 }
 
+#section2 .cont div.card {
+  text-align: center;
+  vertical-align: middle;
+
+}
 
 
 
