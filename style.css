@@ -179,27 +179,29 @@ div.container div {
 }
 
 #section2 .cont .card {
-  background-color: blue;
+  background-color: rgba(119, 78, 3, 0.39);
   width: 250px;
   height: 250px;
   margin: 10px;
   padding: 5px;
-  border-bottom: #F6A588 3px solid;
+  border: #F6A588 3px solid;
   white-space: normal;
   word-break: break-all;
 }
 
 #section2 .cont .card i {
+  font-size: 100px;
+  position: absolute;
   margin-top: 50px;
-  padding-top: 80px;
-  font-size: 5rem;
-  color: #8cc24ea9;
+  margin-left: -50px;
+  color: #F6A588;
+
 }
 
 #section2 .cont div.card {
   text-align: center;
   vertical-align: middle;
-
+  position: relative;
 }
 
 
